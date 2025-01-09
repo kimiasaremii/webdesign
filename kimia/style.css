@@ -1,0 +1,38 @@
+
+form>main{
+    float: left;
+}
+main#informations{
+    width: 70%;
+}
+main#cart{
+    width: 30%;
+}
+main#informations>div{
+    float: left;
+    width: 50%;
+}
+
+main#informations>div>section{
+    float: left;
+    width: 50%;
+}
+input{
+    width: 90%;
+    padding: 5px;
+}
+label{
+    display: block;
+    padding: 10px;
+}
+div>section{
+    float: left;
+
+}
+input[name=zip],input[name=state],input[name=cvv]{
+    width: 80%;
+}
+
+
+
+
