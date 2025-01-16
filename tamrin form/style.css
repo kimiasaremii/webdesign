@@ -1,0 +1,130 @@
+
+ form>main{
+    float: left;
+} 
+main#informations{
+    width: 70%;
+}
+main#cart{
+    width:25%;
+}
+main#informations>div{
+    float: left;
+    width: 50%;
+}
+
+main#informations>div>section{
+    float: left;
+    width: 50%;
+}
+input{
+    width: 80%;
+    padding: 5px;
+}
+label{
+    display: block;
+    padding: 10px;
+}
+div>section{
+    float: left;
+
+}
+input[name=zip],input[name=state],input[name=cvv]{
+    width: 61%;
+}
+ul{
+    list-style-type: none;
+}
+#cart{
+    border: 0.5px solid  hsl(0deg 0% 82.75%);
+    background-color:hsl(0deg 0% 94.9%) ;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+main>h2{
+    padding-left: 40px;
+}
+#left{
+    float: right;
+    
+}
+p{
+    color: #968b8b;
+    padding: 3px;
+}
+#informations{
+    border: 0.5px solid hsl(0deg 0% 82.75%);
+   
+    background-color: hsl(0deg 0% 94.9%);
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+input[type=checkbox]{
+    width: 15px;
+    display: inline;
+
+}
+label[for=checkbox]{
+    display: inline;
+   
+}
+main#cart>section>div{
+    float: left;
+}
+hr{
+    clear: left;
+}
+#total{
+    float: left;
+    padding-left: 35px;
+    color: black;
+}
+#amount{
+    float: right;
+    padding-right: 24px;
+    color: black;
+}
+#basket{
+    width: 90%;
+    
+}
+
+input[type=button]{
+    width: 90%;
+    margin-top: 1%;
+    margin-left: 4%;
+    background-color: hsl(157.95deg 95.4% 34.12%);
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+    
+
+}
+#accepted{
+    padding-top: 16px;
+}
+li{
+    padding: 8px;
+}
+h3{
+    padding-left: 40px;
+}
+#right{
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
