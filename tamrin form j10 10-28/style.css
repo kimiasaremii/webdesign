@@ -1,0 +1,164 @@
+
+ form>main{
+    float: left;
+} 
+main#informations{
+    width: 70%;
+}
+main#cart{
+    width:25%;
+}
+main#informations>div{
+    float: left;
+    width: 50%;
+}
+i{
+    display: inline;
+}
+main#informations>div>section{
+    float: left;
+    width: 48%;
+}
+input{
+    width: 97%;
+    padding: 10px;
+   
+}
+label{
+
+    display: inline-block;
+    /* padding: 10px; */
+    padding:  10px 10px 10px 0px;
+   
+   
+}
+div>section{
+    float: left;
+
+}
+
+ul{
+    list-style-type: none;
+}
+#cart{
+    border: 0.5px solid  hsl(0deg 0% 82.75%);
+    background-color:hsl(0deg 0% 94.9%) ;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+main>h2{
+    padding-left: 40px;
+
+    
+}
+#left{
+    float: right;
+    
+}
+p{
+    color: #968b8b;
+    padding: 3px;
+}
+#informations{
+    border: 0.5px solid hsl(0deg 0% 82.75%);
+   
+    background-color: hsl(0deg 0% 94.9%);
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+input[type=checkbox]{
+    float: left;
+    width: 22px;
+margin: 15px 15px 15px 0px; 
+}
+
+
+main#cart>section>div{
+    float: left;
+}
+hr{
+    clear: left;
+}
+#total{
+    float: left;
+    padding-left: 12px;
+    color: black;
+}
+#amount{
+    float: right;
+    padding-right: 8px;
+    color: black;
+    
+}
+#basket{
+    width: 90%;
+    
+}
+
+input[type=button]{
+    width: 95%;
+    margin-top: 10px;
+margin-left: 25px;
+    background-color: hsl(157.95deg 95.4% 34.12%);
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+   
+    
+
+}
+#accepted{
+    padding-top:19px;
+    
+}
+li{
+    padding: 8px;
+    margin-left:-36px;
+}
+h3{
+    padding-left: 19px;
+}
+#right{
+    padding-left: 10px;
+}
+
+div#left{
+    margin-top: 6px;
+    
+   
+}
+
+h2{
+    margin-right: 5px;
+}
+
+
+div#checkbox{
+    clear: left;
+   
+}
+section#zip{
+    margin-left: 14px;
+}
+input{
+    border: 1px solid hsl(0deg 0% 80%);
+    border-radius: 3px;
+}
+h2#biling{
+    margin-left: 12px;
+}
+input[name=cvv]{
+    margin-left: 14px;
+}
+label[for=cvv]{
+    margin-left: 14px;
+}
+
+i{
+    padding-right: 10px;
+}
