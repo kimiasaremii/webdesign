@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main>div {
+            float: left;
+            width: 31%;
+            padding: 10px;
+            padding-left: 26px;
+        }
+
+        header {
+            background-color: hsl(122.4deg 39.68% 49.41%);
+            padding: 20px;
+            color: azure;
+
+        }
+
+        @media(max-width: 700px) {
+
+            #london,
+            #paris,
+            #tokyo {
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 30px !important;
+            }
+
+            h2 {
+                font-size: 25px !important;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Demo</h1>
+        <p>Resie this responsive Page</p>
+    </header>
+
+    <main>
+        <div id="london">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi minima consectetur quis praesentium nisi
+                quasi odio tempora mollitia dolor atque, porro culpa est excepturi quod, soluta ipsum, incidunt
+                assumenda possimus!</p>
+        </div>
+        <div id="paris">
+            <h2>Paris</h2>
+            <p>Paris is the capital of France.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta incidunt a et fugit harum odit ex quae
+                beatae rem suscipit iusto necessitatibus quidem sint cupiditate, dolorum vitae. Dolores, corporis
+                adipisci.</p>
+        </div>
+        <div id="tokyo">
+            <h2>Tokyo</h2>
+            <p>Tokyo is the capital of Japan.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, incidunt a. Ad, iure ducimus modi eius
+                quasi voluptatem, quibusdam non explicabo aperiam eum tempore unde magnam dolorum voluptates facere
+                quia.</p>
+        </div>
+
+    </main>
+
+
+</body>
+
+</html>
