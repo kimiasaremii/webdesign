@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Vazirmatn;
+}
+nav{
+    height: 80px;
+    background-color: rgb(100,100,100);
+}
+li {
+    float: right;
+    list-style-type: none;
+    width: 25%;
+    padding: 25px;
+    text-align: center;
+    direction: rtl;
+    font-size: larger;
+    cursor: pointer;
+    
+    
+}
+ul>li>a{
+    color: white;
+    
+    
+}
+div>img{
+    width: 100%;
+    opacity: 40%;
+}
+li:hover{
+    background-color: rgb(192, 192, 192);
+}
+@media(max-width:700px) {
+   li {
+        width: 100%;
+        
+    }
+    nav{
+        height: 300px;
+    }
+}
+main>img{
+    width: 22%;
+    padding: 25px;
+    margin-left: 8%;
+}
+section{
+    text-align: center;
+    font-size: xx-large;
+}
