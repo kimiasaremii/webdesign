@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Vazirmatn;
+}
+nav{
+    height: 80px;
+    background-color: rgb(100,100,100);
+}
+nav>ul>li{
+    float: right;
+    list-style-type: none;
+    width: 25%;
+    padding: 25px;
+    text-align: center;
+    direction: rtl;
+    font-size: larger;
+    cursor: pointer;
+    
+    
+}
+ul>li>a{
+    color: white;
+    text-decoration: none;
+    
+    
+}
+div#img>img{
+    width: 100%;
+    opacity: 52%;
+}
+nav>ul>li:hover{
+    background-color: rgb(192, 192, 192);
+}
+
+main>img{
+    width: 22%;
+    padding: 25px;
+    margin-left: 8.5%;
+    
+}
+section{
+    text-align: center;
+    font-size: xx-large;
+}
+input{
+    background-color: #000000;
+    color: white;
+    border-radius: 30px;
+    padding: 8px;
+    width: 10%;
+    cursor: pointer;
+    font-weight: bold;
+    
+    
+}
+input:hover{
+    background-color: #686868;
+    color: #000000;
+    border: 0cm;
+    font-size: large;
+    
+}
+section>h6{
+    float: left;
+    width: 25%;
+    margin-left: 6.5%;
+    
+    
+}
+main#images>div>a>img{
+    width: 80%;
+    padding: 25px;
+    margin-left: 8.5%;
+    
+}
+main#images>div{
+    float: left;
+    width: 23.3%;
+    padding: 5px;
+    margin: 5%;
+    text-align: center;
+    font-size: xx-large;
+  
+
+}
+footer>div{
+    float: left;
+     width: 33.3%;
+  text-align: center; 
+  background-color: rgb(100 100 100);
+  padding: 5px;
+  color: white;
+
+}
+footer>div>ul>a>li{
+   list-style-type: none;
+     padding: 5px;
+     color: white;
+     
+}
+footer>div>ul>a{
+    text-decoration: none;
+}
+footer>div>ul>a>li:hover{
+    font-weight: bolder;
+}
+
+hr{
+    margin-bottom: 10px;
+   
+}
+main#images>div>a:hover{
+    opacity: 52%;
+}
+
+
+
+@media(max-width:700px) {
+    nav>ul>li {
+         width: 100%;
+         padding:30px;
+         
+         
+     }
+     nav{
+         height: 350px;
+     }
+     main#images>div{
+        width: 90%;
+       
+     }
+     footer>div{
+        width:100%;
+        padding: 40px;
+     }
+     section{
+       margin-left: 2%;
+     }
+    
+
+    
+     
+ }
