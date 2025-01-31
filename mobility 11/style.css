@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+nav{
+    height: 44px;
+    background-color: #f2f2f2;
+}
+nav>div{
+    width: 50%;
+    float: left;
+}
+nav>div>{
+    float: left;
+padding: 15px;
+list-style-type: none;
+
+}
+nav>div>a{
+    text-decoration: none;
+    color: black;
+    
+     padding: 15px;
+}
+#search{
+    text-align: right;
+    padding-top: 9px;
+    padding-right: 5px;
+    
+}
+nav>div>a:hover{
+    background-color:hsl(206.57deg 89.74% 54.12%);
+   /* padding: 15px; */
+    
+}
+nav>div>a:hover{
+    color: white;
+}
+section{
+    padding-bottom: 50px;
+}
+h2{
+    padding: 10px;
+}
+input{
+    padding: 3px;
+    color: rgb(114, 114, 114);
+}
+p{
+    padding: 10px;
+}
+div#header{
+    margin-top: 10px;
+}
+@media(max-width:700px){
+nav>div{
+    width: 100%;
+}
+a{
+    display: block;
+}
+nav{
+    height: 247px;
+
+}
+input{
+    width: 100%;
+    padding: 10px;
+    
+}
+div#search{
+    text-align: left;
+}
+label>i{
+    padding: 10px;
+}
+
+
+   
+   
+}
