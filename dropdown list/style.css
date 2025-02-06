@@ -1,0 +1,46 @@
+header {
+    background-color: hsl(0deg 0% 20%);
+}
+
+header>main {
+    display: flex;
+    height: 50px;
+}
+
+header>main>div {
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+select {
+    background-color: hsl(0deg 0% 21.18%);
+    border-style: none;
+    color: white;
+}
+
+#home {
+    background-color: hsl(157.95deg 95.4% 34.12%);
+}
+
+.hover:hover {
+    background-color: #969696;
+}
+
+
+@media(max-width:700px) {
+    header>main {
+        display: block;
+        height: auto;
+    }
+header>main>div#home{
+    padding-left: 15px;
+
+}
+.hover{
+    padding-left: 15px;
+}
+}
