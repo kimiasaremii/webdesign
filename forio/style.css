@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+.container{
+    width: 100%;
+    background-color: #ddd;
+}
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    padding-right: 5px;
+  }
+  .html{
+    width: 90%;
+    background-color: rgb(157, 157, 231);
+  }
+  .css{
+    width: 70%;
+    background-color: rgb(123, 232, 240);
+  }
+  .js{
+    width: 50%;
+    background-color: rgb(223, 160, 214);
+  }
+  .php{
+    width: 20%;
+    background-color: rgb(230, 167, 73);
+  }
+  p{
+    padding: 10px;
+  }
